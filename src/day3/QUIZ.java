@@ -4,6 +4,7 @@ import javax.swing.JOptionPane;
 
 public class QUIZ {
 	public static void main(String[] args) {
+
 		JOptionPane.showMessageDialog(null, "Welcome To the Quiz Game!");
 		int Right = 0;
 		int Wrong = 0;
@@ -61,5 +62,6 @@ public class QUIZ {
 			Wrong = Wrong + 1;
 			JOptionPane.showMessageDialog(null, "Wrong!\n" + "Right Answers: " + Right + "\n" + "Wrong Answers: "+ Wrong);
 		}
+		
 	}
 }
