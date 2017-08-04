@@ -71,7 +71,8 @@ public class TurtleTreasureHunt implements KeyEventDispatcher {
 						System.out.println("Found Little Boy A");
 						JOptionPane.showMessageDialog(null, "[Boy] " + "What?!? You were sent by my sister?");
 						JOptionPane.showMessageDialog(null, "[Boy] " + "I'll help save here but first I lost my Map, it was in a bottle...");
-						FoundBoyA = true;						
+						FoundBoyA = true;
+						FoundGirl = false;
 					}
 				}
 			}
@@ -80,7 +81,7 @@ public class TurtleTreasureHunt implements KeyEventDispatcher {
 					if(Tortoise.getY() >= 370 && (Tortoise.getY() <= 380)){
 						System.out.println("Found Bottle");
 						JOptionPane.showMessageDialog(null, "[System] " + "You have obtained a Bottle");
-						FoundBottle = true;						
+						FoundBottle = true;	
 					}	
 				}
 			}
